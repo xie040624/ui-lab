@@ -1,6 +1,6 @@
 # UI lab results
 
-Tool parts that I chose:
+Tool parts that I chose: Part 3 Robot Framework and Part 4 Cypress
 
 ## Part 0
 
@@ -21,3 +21,10 @@ Tool parts that I chose:
 | 5    | The page showed `Please log in first.` | Pass |
 | 6    | After signing in as admin, the page showed `Latest pizza recommendations` | Pass |
 | 7    | The admin list showed `Lab Pizza 20261108-121000 (tool=Pizza cutter, ingredients_number=6)` | Pass |
+
+## Part 3: Robot Framework
+
+- robot --version: Robot Framework 7.5.1 (Python 3.14.6 on win32)
+- Step 3.2, failure message for the wrong title: `Title should have been 'Web Form' but was 'Web form'.`
+- Step 3.8, run 1, result, elapsed time and pizza name: PASS, 9.20 seconds, Lab Pizza 20261108-182440
+- Step 3.8, run 2, result, elapsed time and pizza name: PASS, 9.06 seconds, Lab Pizza 20261108-182449

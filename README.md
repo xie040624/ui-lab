@@ -1,1 +1,12 @@
 # ui-lab
+
+This repository contains Part 3 (Robot Framework) and Part 4 (Cypress) of the UI testing lab.
+
+## Robot Framework
+
+The `robot` folder contains the web form tests, the automated QP-01 scenario, shared QuickPizza keywords and evidence from two passing runs. From the `robot` folder, activate the virtual environment and run:
+
+```powershell
+.venv\Scripts\activate
+robot first.robot web_form.robot pizza_scenario.robot
+```
