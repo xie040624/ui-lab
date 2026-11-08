@@ -28,3 +28,13 @@ Tool parts that I chose: Part 3 Robot Framework and Part 4 Cypress
 - Step 3.2, failure message for the wrong title: `Title should have been 'Web Form' but was 'Web form'.`
 - Step 3.8, run 1, result, elapsed time and pizza name: PASS, 9.20 seconds, Lab Pizza 20261108-182440
 - Step 3.8, run 2, result, elapsed time and pizza name: PASS, 9.06 seconds, Lab Pizza 20261108-182449
+
+## Part 4: Cypress
+
+- node --version, npm --version and npx cypress version: v26.13.0, 11.20.0, Cypress package and binary 16.2.1
+- Step 4.3, failure message for the wrong title: `Timed out retrying after 10000ms`; actual `Web form`, expected `Web Form`
+- Step 4.6, tool and calories in the answer of POST /api/pizza: Scissors, 350 calories per slice
+- Step 4.7, the line of the admin list that shows your pizza: `Lab Pizza 20261108-184558 (tool=Scissors, ingredients_number=5) (newest)`
+- Step 4.8, run 1, result, duration and pizza name: PASS, 12 seconds, Lab Pizza 20261108-184514
+- Step 4.8, run 2, result, duration and pizza name: PASS, 12 seconds, Lab Pizza 20261108-184558
+- Step 4.9 (optional), browser and result: Not attempted
